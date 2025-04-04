@@ -1,0 +1,128 @@
+body{
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: #0088c2;
+}
+
+.container{
+    width: 90%;
+    position: relative;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: row;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0088c2;
+}
+
+.list-box{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    overflow: scroll;
+    margin: auto;
+    margin-left: 0;
+    padding: 10px;
+    transition: 1s;
+}
+
+.task{
+    width: 90%;
+    height: 60px;
+    padding: 10px;
+    background-color: #00293b;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #004cff;
+    color: white;
+    display: flex;
+    margin-top: 10px;
+    justify-content: left;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: row;
+    transition: 1s;
+}
+
+.task input{
+    width: 20px;
+    height: 20px;
+    border-style: none;
+}
+
+.task h4{
+    font-weight: 300;
+}
+
+.task input{
+    margin: auto;
+    margin-right: 10px;
+}
+
+.list-form{
+    width: 50%;
+    height: 100%;
+    background-color: #0088c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.list-form input, button{
+    margin: auto;
+    margin-top: 10px;
+}
+
+.list-form h3{
+    color: #00293b;
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.list-form button{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    background-color: #004b6b;
+    color:white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.list-form button:hover{
+    background-color: white;
+    border-color: #004b6b;
+    color: #004b6b;
+}
+
+.list-form input{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #004b6b;
+    border-width: 1px;
+}
+
+
